@@ -1,4 +1,6 @@
-#
+# **How to Deploy a react App in Github Pages**
+
+---
 
 ## Create react app
 
@@ -60,3 +62,4 @@
 ```cmd
 ~$ git push -u origin master
 ```
+
