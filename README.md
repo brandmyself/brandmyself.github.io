@@ -8,6 +8,8 @@
 ~$ npx create-react-app brandmine
 ```
 
+
+
 ## Run the server
 
 ```cmd
@@ -19,6 +21,22 @@
 
 ```cmd
 ~$ npm install gh-pages --save-dev
+```
+
+## Modify `package.json`
+
+```js
+  "homepage": "http://brandmyself.github.io", //should be added and same as github link
+  "name": "brandmine",                          //name of the project
+   ...
+  "scripts": {
+    "predeploy": "npm run build",           //line 1 should be added
+    "deploy": "gh-pages -d build",          //line 2 should be added
+    ....
+  }
+  "devDependencies": {
+    "gh-pages": "^3.2.0"
+  }
 ```
 
 ## Git Initialization
@@ -62,4 +80,15 @@
 ```cmd
 ~$ git push -u origin master
 ```
+
+
+
+
+
+
+
+
+
+
+
 
