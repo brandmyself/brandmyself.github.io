@@ -5,34 +5,32 @@ import Header from "./components/Header/Header";
 import Resume from "./pages/Resume/Resume";
 import { Portfolio } from "./pages/Portfolio/Portfolio";
 import { Footer } from "./components/Footer/Footer";
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
 
 function App() {
   return (
-    <Container>
-      <Grid container>
-        <Grid item  xs={12} sm={12} md={4} lg={3}>
-          <Profile/>
+    <Container className={'top_60'}>
+      <Grid container spacing={7}>
+        <Grid item xs={12} sm={12} md={4} lg={3}>
+          <Profile />
         </Grid>
-        <Grid item xs style={{backgroundColor: 'lightgrey'}}>
-          <Header/>
-            <Router>
-              <Switch>
-                <Route path='/portfolio'>
-                  <Portfolio/>
-                </Route>
-                <Route path='/'>
-                  <Resume/>
-                </Route>
-              </Switch>
-            </Router>
-          <Footer/>
+        <Grid item xs style={{ backgroundColor: "lightgrey" }}>
+          <Header />
+          <Router>
+            <Switch>
+              <Route path="/portfolio">
+                <Portfolio />
+              </Route>
+              <Route path="/">
+                <Resume />
+              </Route>
+            </Switch>
+          </Router>
+          <Footer />
         </Grid>
       </Grid>
     </Container>
   );
 }
 export default App;
-
-
