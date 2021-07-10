@@ -80,7 +80,7 @@
 ```
 
 
-## REACT JS Portfolio part 7 - Header Component [00:00]
+## REACT JS Portfolio part 9 - Resume page (about me)
 
 
 

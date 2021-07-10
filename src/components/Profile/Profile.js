@@ -8,7 +8,7 @@ import PersonOutLineOutlinedIcon from "@material-ui/icons/PersonOutlineOutlined"
 import TimelineItem from "@material-ui/lab/TimelineItem";
 import resumeData from "../../utils/resumeData";
 import TimelineContent from "@material-ui/lab/TimelineContent";
-import CustomButton from '../Button/Button'
+import CustomButton from '../Button/Button';
 import GetAppIcons from "@material-ui/icons/GetApp";
 
 const CustomTimelineItem = ({ title, text, link }) => (
