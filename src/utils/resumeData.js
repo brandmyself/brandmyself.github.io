@@ -27,5 +27,9 @@ export default {
                 text : 'Imrul Hasan',
                 icon : <GitHubIcon/>,
         },    
-    }
+    },
+
+    about       :   "A proactive and fast learning individual working as a dynamic data analyst \
+                    utilizing analytical methodical skills and relevant expertise to help the company \
+                    achieve business goals while sticking to vision, mission and values. \n\n Here is the next paragrah",
 }

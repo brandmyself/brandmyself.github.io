@@ -11,13 +11,14 @@ import "./App.css";
 function App() {
   return (
     <Container className={'top_60'}>
-      <Grid container spacing={7}>
+      <Grid container spacing={3}>
         <Grid item xs={12} sm={12} md={4} lg={3}>
           <Profile />
         </Grid>
         <Grid item xs>
           <Router>
             <Header />
+            <div className='main-content container_shadow'>
             <Switch>
               <Route path="/portfolio">
                 <Portfolio />
@@ -26,6 +27,7 @@ function App() {
                 <Resume />
               </Route>
             </Switch>
+            </div>
           </Router>
           <Footer />
         </Grid>
