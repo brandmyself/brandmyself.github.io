@@ -31,5 +31,46 @@ export default {
 
     about       :   "A proactive and fast learning individual working as a dynamic data analyst \
                     utilizing analytical methodical skills and relevant expertise to help the company \
-                    achieve business goals while sticking to vision, mission and values. \n\n Here is the next paragrah",
+                    achieve business goals while sticking to vision, mission and values.",
+    experiences  :    [
+            {
+                title           :       'Associate Data Analyst, Progoti Systems Ltd',
+                date            :       'Oct 2020 - present',
+                description     :       '- Developed ETL jobs using Python for MySQL, PostgreSQL DB.\n\
+                                        - Developed SureCash Query Helper Portal in Web\n\
+                                        - Create new PL/pgSQL functions or procedures.\n\
+                                        - Modify existing PL/pgSQL functions or procedures.\n\
+                                        - Bangladesh Bank Audit Report\n\
+                                        - Growth Report\n\
+                                        - Handle BI portal on web\n\
+                                        - Social Welfare Disbursement\n\
+                                        - Padma Multipurpose Bridge stipend project\n\
+                                        - Daily, Monthly Adhoc Reports\n\
+                                        - Checking RIT Report,Income Reports\n\
+                                        - Automated 3rd RIT Report\n\
+                                        - Automate Excel Report using Python\n\
+                                        - Prepare documentation for reports\n\
+                                        - Data Scraping from portals to match with db'
+            },
+    ],
+    educations  :    [
+        {
+            title           :       'CSE, University of Asia Pacific',
+            date            :       'April 2016 - June 2020',
+            description     :       'Computer Science & Engineering\n\
+                                     Thesis: Deep Learning-Based Violence Detection System From Surveillance Video'
+        },
+        {
+            title           :       'HSC, Jahangirnagar University School & College',
+            date            :       'April 2012 - May 2014',
+            description     :       'Department of Science'
+        },
+        {
+            title           :       'SSC, Savar Adhar Chandra High School',
+            date            :       'Jan 2010 -  April 2012',
+            description     :       'Department of Science'
+        },
+    ],
 }
+
+

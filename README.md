@@ -80,7 +80,9 @@
 ```
 
 
-## REACT JS Portfolio part 9 - Resume page (about me)
+## REACT JS Portfolio part 11 - Resume Page (services+skills)
+
+
 
 
 
