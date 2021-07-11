@@ -19,12 +19,19 @@
 } 
 .resume_timeline .timeline_content .timeline_date { 
     color: darkslategray; 
+    font-weight: 600;
 } 
 .resume_timeline .timeline_content .timeline_description { 
     color: gray; 
     font-size: small; 
     margin-top: 60x; 
     white-space: pre-line !important;
+}
+
+.timeline_details{
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    color: rgb(121, 120, 120); 
 }
 
 
@@ -93,3 +100,28 @@
 
 
 /* End of Skills */
+
+/* Problem Solving */
+.problem_solving{
+    font-size: 14px !important;
+    font-weight: 800 !important;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+.problem_solving_inner{
+    font-weight: 500 !important;
+    font-size: 15px !important;
+}
+
+.problem_solve_count{
+    float: right;
+}
+
+/*End of Problem Solving */
+
+
+
+
+
+
+
+

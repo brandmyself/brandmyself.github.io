@@ -7,11 +7,12 @@ import AssignmentOutlined from '@material-ui/icons/AssignmentOutlined';
 
 export default {
     name        :   'Md. Imrul Hasan',
+    goal        :   'Data Enthusiast',
     title       :   'Data Analyst',
     birthday    :   '30th Aug, 1997',
     job         :   'Engineer',
     email       :   'imrulhasan273@gmail.com',
-    address     :   'Savar, Dhaka',
+    address     :   'Dhaka, Bangladesh',
     phone       :   '01775707460',
     socials     :    {
         Facebook    :   {
@@ -38,8 +39,11 @@ export default {
                     University of Asia Pacific.",
     experiences  :    [
             {
-                title           :       'Associate Data Analyst, Progoti Systems Ltd',
-                date            :       'Oct 2020 - present',
+                title           :       'Associate Data Analyst',
+                company         :       'Progoti Systems Ltd.',
+                department      :       'Engineering',
+                team            :       'Data and BI',
+                date            :       'March 2021 - present',
                 description     :       '- Developed ETL jobs using Python for MySQL, PostgreSQL DB.\n\
                                         - Developed SureCash Query Helper Portal in Web\n\
                                         - Create new PL/pgSQL functions or procedures.\n\
@@ -56,22 +60,35 @@ export default {
                                         - Prepare documentation for reports\n\
                                         - Data Scraping from portals to match with db'
             },
+            {
+                title           :       'Junior Data Analyst',
+                company         :       'Progoti Systems Ltd.',
+                department      :       'Engineering',
+                team            :       'Data and BI',
+                date            :       'Oct 2020 - Feb 2021',
+                description     :       '',
+            },
     ],
     educations  :    [
         {
-            title           :       'BSc. in CSE, University of Asia Pacific',
+            title           :       'BSc. in Computer Science & Engineering',
+            institution     :       'University of Asia Pacific',
+            result          :       '3.84/4',
             date            :       'April 2016 - June 2020',
-            description     :       'Computer Science & Engineering\n\
-                                     Thesis: Deep Learning-Based Violence Detection System From Surveillance Video'
+            description     :       'Thesis: Deep Learning-Based Violence Detection System From Surveillance Video'
         },
         {
-            title           :       'HSC, Jahangirnagar University School & College',
-            date            :       'April 2012 - May 2014',
+            title           :       'Higher Secondary Certificate',
+            institution     :       'Jahangirnagar University School & College',
+            result          :       '4.40/5',
+            date            :       'June 2012 - May 2014',
             description     :       'Department of Science'
         },
         {
-            title           :       'SSC, Savar Adhar Chandra High School',
-            date            :       'Jan 2010 -  April 2012',
+            title           :       'Secondary School Certificate',
+            institution     :       'Savar Adhar Chandra High School',
+            result          :       '4.63/5',
+            date            :       'Jan 2010 -  May 2012',
             description     :       'Department of Science'
         },
     ],
@@ -102,25 +119,65 @@ export default {
         {
             title : 'Language',
             desciption : [
-                    "C",
                     "Python",
+                    "SQL",
+                    "C",
                     "JavaScript",
-                    "SQL"
             ]
         },
         {
             title : 'Database',
             desciption : [
                     "PostgreSQL",
-                    "pl/pgsql",
-                    "pg DBA",
                     "MySQL",
                     "Oracle",
                     "MongoDB",
             ]
         },
         {
-            title : 'Front End',
+            title : 'DBA (pg)',
+            desciption : [
+                    "Configuration Files",
+                    "Managing Connections",
+                    "Roles",
+                    "Database Creation",
+                    "Privileges",
+                    "Extensions",
+                    "Backup and Restore",
+                    "Tablespaces",
+            ]
+        },
+        {
+            title : 'Replication (pg)',
+            desciption : [
+                    "Overview",
+                    "Setting Up Replication",
+                    "Foreign Data Wrappers"
+            ]
+        },
+        {
+            title : 'Performance Tune (pg)',
+            desciption : [
+                    "EXPLAIN",
+                    "Writing Better Queries",
+                    "Parallelized Queries",
+                    "Query Planner",
+                    "Caching",
+            ]
+        },
+        {
+            title : 'Data Analysis',
+            desciption : [
+                    "Tableau",
+                    "Google Data Studio",
+                    "Matplotlib",
+                    "Pandas",
+                    "Keras",
+                    "OpenCV",
+            ]
+        },
+        {
+            title : 'Front-End Library',
             desciption : [
                     "JQuery",
                     "React JS",
@@ -128,7 +185,7 @@ export default {
             ]
         },
         {
-            title : 'Back End',
+            title : 'Back-End Framework',
             desciption : [
                     "Django",
                     "Laravel",
@@ -140,17 +197,6 @@ export default {
                     "Git",
                     "Github",
                     "Gitlab",
-            ]
-        },
-        {
-            title : 'Data Analysis',
-            desciption : [
-                    "Tableau",
-                    "Google Data Studio",
-                    "Matplotlib",
-                    "Pandas",
-                    "Keras",
-                    "OpenCV"
             ]
         },
         {
@@ -170,7 +216,57 @@ export default {
                     "Jira",
             ]
         },
-    ]
+        {
+            title : 'Others',
+            desciption : [
+                    "MS Word",
+                    "MS Excel",
+                    "MS Powerpoint",
+                    "Google Docx",
+            ]
+        },
+    ],
+
+    problem_solvings : [
+        {
+            account    : 'UVA',
+            handle     : 'BackstreetImrul007',
+            count      : 60,
+        },
+        {
+            account    : 'URI',
+            handle     : '201743',
+            count      : 90,
+        },
+    ],
+    academic_achievements : [
+        {
+            awards    : 'VC Awards',
+            date      : 'Fall, 2019',
+            reason     : 'GPA 4.00',
+        },
+        {
+            awards    : 'VC Awards',
+            date      : 'Spring, 2019',
+            reason     : 'GPA 3.96',
+        },
+        {
+            awards    : 'Dean Awards',
+            date      : 'Fall, 2018',
+            reason     : 'GPA 3.82',
+        },
+        {
+            awards    : 'VC Awards',
+            date      : 'Spring, 2018',
+            reason     : 'GPA 3.98',
+        },
+        {
+            awards    : 'Dean Awards',
+            date      : 'Fall, 2017',
+            reason     : 'GPA 3.86',
+        },
+    ],
+
 }
 
 

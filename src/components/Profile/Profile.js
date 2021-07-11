@@ -37,7 +37,7 @@ const Profile = () => {
     <div className="profile container_shadow">
       <div className="profile_name">
         <Typography className="name">{resumeData.name}</Typography>
-        <Typography className="title">{resumeData.title}</Typography>
+        <Typography className="title">{resumeData.goal}</Typography>
       </div>
       <figure className="profile_image">
         <img src={profile_pic} alt="Not Found" />
@@ -45,8 +45,9 @@ const Profile = () => {
       <div className="profile_information">
         <CustomTimeline icon={<PersonOutLineOutlinedIcon />}>
           <CustomTimelineItem title="Name" text={resumeData.name} />
-          <CustomTimelineItem title="Title" text={resumeData.title} />
+          <CustomTimelineItem title="Designation" text={resumeData.title} />
           <CustomTimelineItem title="Email" text={resumeData.email} />
+          <CustomTimelineItem title="Address" text={resumeData.address} />
           {Object.keys(resumeData.socials).map((key) => (
             <CustomTimelineItem
               title={key}

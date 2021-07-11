@@ -26,6 +26,7 @@ const Resume = () => {
                 </Grid>
             </Grid>
             
+            
             {/* Education and Experience */}
             <Grid container className='section pb_45'>
                 <Grid item className='section_title mb_30'>
@@ -44,7 +45,9 @@ const Resume = () => {
                                     <TimelineItem>
                                         <CustomTimelineSeparator></CustomTimelineSeparator>
                                         <TimelineContent className='timeline_content'>
-                                            <Typography className='timeline_title'> {experiences.title}</Typography>
+                                            <Typography className='timeline_title'>{experiences.title}</Typography>
+                                            <Typography className='timeline_details'>{experiences.company}</Typography>
+                                            <Typography className='timeline_details'>{experiences.team}, {experiences.department}</Typography>
                                             <Typography variant='caption' className='timeline_date'> {experiences.date}</Typography>
                                             <Typography variant='body2' className='timeline_description'> {experiences.description}</Typography>
                                         </TimelineContent>
@@ -61,6 +64,8 @@ const Resume = () => {
                                         <CustomTimelineSeparator></CustomTimelineSeparator>
                                         <TimelineContent className='timeline_content'>
                                             <Typography className='timeline_title'> {educations.title}</Typography>
+                                            <Typography className='timeline_details'>{educations.institution}</Typography>
+                                            <Typography className='timeline_details'>cgpa: {educations.result}</Typography>
                                             <Typography variant='caption' className='timeline_date'> {educations.date}</Typography>
                                             <Typography variant='body2' className='timeline_description'> {educations.description}</Typography>
                                         </TimelineContent>
@@ -73,6 +78,7 @@ const Resume = () => {
                     </Grid>
                 </Grid>
             </Grid>
+
 
             {/* Services */}
             <Grid container className='section pb_45'>
@@ -117,6 +123,64 @@ const Resume = () => {
                 </Grid>
             </Grid>
                         
+
+            {/* PROBLEM SOLVING */}
+            <Grid container className='section pb_45 pt_45'>
+                <Grid item sm={12} md={6}>
+                    <Grid item className='section_title mb_30'>
+                        <span></span>
+                        <h6 className='section_title_text'>Problem Solving (OJ)</h6>
+                    </Grid>
+                    <ul className='problem_solving'>
+                        {resumeData.problem_solvings.map(problem_solving => (
+                            <Typography className='timeline_title'>
+                                <li className="problem_solving_inner">{problem_solving.account} -  
+                                    {problem_solving.handle} 
+                                    <span className="problem_solve_count">
+                                        [{problem_solving.count}+ problems]
+                                    </span> 
+                                </li>
+                            </Typography>
+                        ))}
+                    </ul>  
+                </Grid>
+            </Grid>            
+
+            {/* Academic Achievements */}
+            <Grid container className='section pb_45 pt_45'>
+                <Grid item sm={12} md={6}>
+                    <Grid item className='section_title mb_30'>
+                        <span></span>
+                        <h6 className='section_title_text'>Academic Achievements</h6>
+                    </Grid>
+                    <ul className='academic_achievements'>
+                        {resumeData.academic_achievements.map(academic_achievement => (
+                            <Typography className='timeline_title'>
+                                <li>{academic_achievement.awards} -  
+                                    {academic_achievement.date} 
+                                    <span className="problem_solve_count">
+                                        [{academic_achievement.reason}]
+                                    </span> 
+                                </li>
+                            </Typography>
+                        ))}
+                    </ul>  
+                </Grid>
+            </Grid>   
+
+            {/* License & Certifications */}
+            <Grid container className='section pb_45 pt_45'>
+                <Grid item className='section_title mb_30'>
+                    <span></span>
+                    <h6 className='section_title_text'>License & Certifications</h6>
+                </Grid>
+                <Grid item xs={12}>
+                    <Typography variant='body2' className='aboutme_text'>
+                        Test
+                    </Typography>
+                </Grid>
+            </Grid>         
+
 
             {/* Contact */}
             <Grid container className='section'></Grid>
