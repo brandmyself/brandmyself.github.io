@@ -2,6 +2,8 @@ import React from "react";
 import FacebookIcon from '@material-ui/icons/Facebook';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
+import WebOutlined from '@material-ui/icons/WebAssetOutlined';
+import AssignmentOutlined from '@material-ui/icons/AssignmentOutlined';
 
 export default {
     name        :   'Md. Imrul Hasan',
@@ -55,7 +57,7 @@ export default {
     ],
     educations  :    [
         {
-            title           :       'CSE, University of Asia Pacific',
+            title           :       'BSc. in CSE, University of Asia Pacific',
             date            :       'April 2016 - June 2020',
             description     :       'Computer Science & Engineering\n\
                                      Thesis: Deep Learning-Based Violence Detection System From Surveillance Video'
@@ -71,6 +73,96 @@ export default {
             description     :       'Department of Science'
         },
     ],
+    services : [
+        {
+            title           : 'Web Dev',
+            description     : 'I am a good web developer.',
+            icon            : <WebOutlined/>
+        },
+        {
+            title           : 'Branding Identit',
+            description     : 'I am a good web developer.',
+            icon            : <AssignmentOutlined/>
+        },
+        {
+            title           : 'Illustrator',
+            description     : 'I am a good web developer.',
+            icon            : <WebOutlined/>
+        },
+    ],
+
+    skills  : [
+        {
+            title : 'FRONT END',
+            desciption : [
+                    "REACTJS",
+                    "JAVASCRIPT",
+                    "bOOTSTRAP",
+            ]
+        },
+        {
+            title : 'BACK END',
+            desciption : [
+                    "Django",
+                    "Laravel",
+                    "PHP",
+            ]
+        },
+        {
+            title : 'Database',
+            desciption : [
+                    "PostgreSQL",
+                    "MySQL",
+                    "Oracle",
+                    "MongoDB",
+            ]
+        },
+        {
+            title : 'Source Control',
+            desciption : [
+                    "Git",
+                    "Github",
+                    "Gitlab",
+                    "Scrum/Agine",
+            ]
+        },
+        {
+            title : 'Source Control',
+            desciption : [
+                    "Git",
+                    "Github",
+                    "Gitlab",
+                    "Scrum/Agine",
+            ]
+        },
+        {
+            title : 'Source Control',
+            desciption : [
+                    "Git",
+                    "Github",
+                    "Gitlab",
+                    "Scrum/Agine",
+            ]
+        },
+        {
+            title : 'Source Control',
+            desciption : [
+                    "Git",
+                    "Github",
+                    "Gitlab",
+                    "Scrum/Agine",
+            ]
+        },
+        {
+            title : 'Source Control',
+            desciption : [
+                    "Git",
+                    "Github",
+                    "Gitlab",
+                    "Scrum/Agine",
+            ]
+        },
+    ]
 }
 
 
