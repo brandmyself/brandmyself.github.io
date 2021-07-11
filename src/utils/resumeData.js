@@ -31,9 +31,11 @@ export default {
         },    
     },
 
-    about       :   "A proactive and fast learning individual working as a dynamic data analyst \
-                    utilizing analytical methodical skills and relevant expertise to help the company \
-                    achieve business goals while sticking to vision, mission and values.",
+    about       :   "Data Analyst with a demonstrated history of working in the financial services industry.\
+                    Skilled in PostgreSQL, Python, Data Visualization, ETL using Python with various database, \
+                    have development experience to make BI portal using Django. Strong information technology \
+                    professional with a Computer Science and Engineering focused in Computer Programming from \
+                    University of Asia Pacific.",
     experiences  :    [
             {
                 title           :       'Associate Data Analyst, Progoti Systems Ltd',
