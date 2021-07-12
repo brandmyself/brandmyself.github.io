@@ -125,47 +125,56 @@ const Resume = () => {
                         
 
             {/* PROBLEM SOLVING */}
+            
             <Grid container className='section pb_45 pt_45'>
-                <Grid item sm={12} md={6}>
+                {/* <Grid item sm={12} md={6}> */}
                     <Grid item className='section_title mb_30'>
                         <span></span>
                         <h6 className='section_title_text'>Problem Solving (OJ)</h6>
                     </Grid>
-                    <ul className='problem_solving'>
+                     
+                    <table className='table_main'>
+                        <tr>
+                            <th>OJ</th>
+                            <th>Handle</th>
+                            <th>Count</th>
+                        </tr>
                         {resumeData.problem_solvings.map(problem_solving => (
-                            <Typography className='timeline_title'>
-                                <li className="problem_solving_inner">{problem_solving.account} -  
-                                    {problem_solving.handle} 
-                                    <span className="problem_solve_count">
-                                        [{problem_solving.count}+ problems]
-                                    </span> 
-                                </li>
-                            </Typography>
+                        <tr>
+                            <td>{problem_solving.account}</td>
+                            <td>{problem_solving.handle}</td>
+                            <td>{problem_solving.count}+</td>
+                        </tr>
                         ))}
-                    </ul>  
-                </Grid>
+                    </table>
+                {/* </Grid> */}
             </Grid>            
 
             {/* Academic Achievements */}
             <Grid container className='section pb_45 pt_45'>
-                <Grid item sm={12} md={6}>
+                {/* <Grid item sm={12} md={6}> */}
                     <Grid item className='section_title mb_30'>
                         <span></span>
                         <h6 className='section_title_text'>Academic Achievements</h6>
-                    </Grid>
-                    <ul className='academic_achievements'>
+                    </Grid> 
+
+                    <table className='table_main'>
+                        <tr>
+                            <th>Award</th>
+                            <th>Date</th>
+                            <th>Reason</th>
+                            <th>Institution</th>
+                        </tr>
                         {resumeData.academic_achievements.map(academic_achievement => (
-                            <Typography className='timeline_title'>
-                                <li>{academic_achievement.awards} -  
-                                    {academic_achievement.date} 
-                                    <span className="problem_solve_count">
-                                        [{academic_achievement.reason}]
-                                    </span> 
-                                </li>
-                            </Typography>
+                        <tr>
+                            <td>{academic_achievement.awards}</td>
+                            <td>{academic_achievement.date}</td>
+                            <td>{academic_achievement.reason}</td>
+                            <td>{academic_achievement.institution}</td>
+                        </tr>
                         ))}
-                    </ul>  
-                </Grid>
+                    </table>
+                {/* </Grid> */}
             </Grid>   
 
             {/* License & Certifications */}

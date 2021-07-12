@@ -241,27 +241,32 @@ export default {
     ],
     academic_achievements : [
         {
-            awards    : 'VC Awards',
-            date      : 'Fall, 2019',
+            awards     : 'VC Awards',
+            institution: 'UAP',
+            date       : 'Fall, 2019',
             reason     : 'GPA 4.00',
         },
         {
             awards    : 'VC Awards',
+            institution: 'UAP',
             date      : 'Spring, 2019',
             reason     : 'GPA 3.96',
         },
         {
             awards    : 'Dean Awards',
+            institution: 'UAP',
             date      : 'Fall, 2018',
             reason     : 'GPA 3.82',
         },
         {
             awards    : 'VC Awards',
+            institution: 'UAP',
             date      : 'Spring, 2018',
             reason     : 'GPA 3.98',
         },
         {
             awards    : 'Dean Awards',
+            institution: 'UAP',
             date      : 'Fall, 2017',
             reason     : 'GPA 3.86',
         },

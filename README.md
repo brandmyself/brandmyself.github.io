@@ -82,8 +82,6 @@
 ## REACT JS Portfolio part 11 - Resume Page (services+skills)
 
 
-##
-
 - ONLINE JUDGEMENT - PROBLEM SOLVING
 
 - ACADEMIC ACHIEVEMENTS

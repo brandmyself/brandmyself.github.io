@@ -106,15 +106,42 @@
     font-size: 14px !important;
     font-weight: 800 !important;
     font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    /* border: red solid; */
+    width: 100%;
 }
 .problem_solving_inner{
     font-weight: 500 !important;
     font-size: 15px !important;
 }
+.problem_solving_inner2{
+    
+}
 
 .problem_solve_count{
     float: right;
 }
+
+.table_main{
+    /* border: red solid; */
+    width: 100%;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+}
+
+.table_main td,th{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.table_main tr>th{
+    background-color: #ebe8e8;
+}
+
+.table_main tr:nth-child(even) {
+    /* background-color: #fdf9f9; */
+}
+
 
 /*End of Problem Solving */
 
